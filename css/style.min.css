@@ -484,7 +484,7 @@ nav {
 }
 
 .require .red_list .require_list li:before {
-    background: url("../icons/Red.svg") center center/cover no-repeat
+    background: url("../img/red.svg") center center/cover no-repeat
 }
 
 .world {
