@@ -484,7 +484,7 @@ nav {
 }
 
 .require .red_list .require_list li:before {
-    background: url("../img/red.svg") center center/cover no-repeat
+    background: url("../icons/Red.svg") center center/cover no-repeat
 }
 
 .world {
@@ -1331,13 +1331,14 @@ footer a:hover {
     }
 
     .footer_links_subtitle {
-        font-size: 11px;
+        padding: 0 5px 0 5px;
+        font-size: 13px;
         line-height: 11px;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
     }
 
     .footer_links_subtitle a {
